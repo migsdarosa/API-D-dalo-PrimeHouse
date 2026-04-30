@@ -23,7 +23,7 @@ public class vendasService {
 
     }
 
-    public List<vendas> listarvendas() {
+    public List<vendas> listarVendas() {
         return vendasRepository.findAll();
     }
 

@@ -6,10 +6,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.senai.backend.dedalo.Models.imoveis;
+import com.senai.backend.dedalo.Models.vendas;
 import com.senai.backend.dedalo.Repositories.imoveisRepository;
 
 @Service
 public class imoveisService {
+
+    public static vendas cadastrarVendas(vendas vendas) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 
     @Autowired
     private imoveisRepository imoveisRepository;
